@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid black;
+	font-family: arial ,verdana ,sans-serif;
+
+}
+	#header{
+		background: brown;
+		width: 1160px;
+		padding: 10px 20px;
+		color : white ;
+
+	} 
+	#header h1:hover{
+		color: green;
+	}
+	#nav{
+		background : orange;
+		width: 1200px;
+		font-weight: bold;
+		/*height: 50px;*/
+	}
+		#nav ul{
+			list-style: none;
+		} 
+			#nav ul li{
+				float: left;
+				width: 200px;
+				padding: 20px; 
+				text-align: center;
+			}
+			#nav ul li:hover{
+				background : lightgreen;
+				color:brown  ;
+				border-bottom: 5px solid green;
+			}
+			#nav a{
+				color: black;
+			}
+
+	#main{
+	/*	background : gray;
+		width: 1200px;*/
+
+
+	}
+		#left{
+			width: 800px;
+			/*height: 680px;*/
+			float: left;
+		}
+			.post{
+				margin: 20px;
+
+			}
+				.title{
+					background: brown;
+					padding: 20px 10px;
+					color: white;
+					font-size: 25px;
+					font-weight: bold;
+				}
+				.desc{
+					background: white;
+					border: 2px lightblue solid;
+					padding: 20px;
+				}
+
+
+
+		#right{
+			width: 360px;
+			height: 650px;
+			float: left;
+			padding: 20px;
+		}
+
+			#right h2{
+				text-align: center;
+			}
+
+			.latestpost{
+				background : lightgreen;
+				color: black;
+				padding: 10px 0;
+				margin: 5px;
+				text-align: center;
+			}
+			.latestpost:hover{
+				background : green;
+				color: white;
+			}
+			#newa_letter{
+
+			}
+				.head{
+					text-align: center;
+					font-weight: bold;
+					font-size: 25px;
+					padding: 20px;
+					text-decoration: underline; 
+				}
+				input[type='text']{
+						width: 350px;
+						height: 50px;
+						border: 5px solid lightblue;
+						border-radius:10px;
+				}
+				input[type='submit']{
+						width: 350px;
+						border: 1px solid lightblue;
+						margin: 10px;
+						border-radius:5px;
+						background: green;
+						color: white;
+						padding: 20px 0;
+						font-size: 20px;
+
+				}
+	#footer{
+		background:brown;
+		width: 1200px;
+		height: 100px;
+		text-align: center;
+		color: white;  
+		padding: 20px 0;
+	}
